@@ -1,0 +1,77 @@
+body {
+    background: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+
+.game-contend-result {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #fff;;
+}
+
+.game-result {
+    color: blue;
+}
+
+.winner-container {
+    width: 100%;
+}
+
+.winner-color {
+    color: blue;
+}
+
+
+.boar-container {
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row;
+    gap: 10px;
+    width: 620px;
+    background-color: black;
+}
+
+.hidden {
+    display: none;
+}
+
+.board-item {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-family: "Comic Sans MS", "Comic Sans", cursive;
+    box-sizing: border-box;
+    user-select: none;
+    width: 200px;
+    height: 200px;
+    background-color: #fff;
+    cursor: pointer;
+    font-size: 100pt;
+    font-weight: bold;
+}
+
+.board-item:hover {
+    background: #eee;
+}
+
+.start-game-text {
+    font-size: 18pt;
+}
+
+.btn-start-game {
+    background-color: #1f4eb6;
+    color: white;
+    padding: 5px 20px;
+    border-radius: 10px;
+    border: 1px solid #2559ce;
+}
+
+.btn-start-game:hover {
+    background-color: #456ecb;
+}
